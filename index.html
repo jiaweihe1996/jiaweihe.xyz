@@ -24,6 +24,14 @@
 
     <!-- Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
+
+    <!-- Academic Theme Overrides -->
+    <link href="css/academic.css" rel="stylesheet">
     
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -74,13 +82,16 @@
                 <a class="navbar-brand" href="index.html">Jiawei He's Homepage</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#publications">Publications</a>
-                    </li>
+	                  <ul class="nav navbar-nav navbar-right">
+	                    <li>
+	                        <a href="#about">About</a>
+	                    </li>
+                        <li>
+                            <a href="#news">News</a>
+                        </li>
+	                    <li>
+	                        <a href="#publications">Publications</a>
+	                    </li>
                   
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
@@ -104,174 +115,158 @@
      <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-8">
+        <div class="row site-section">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
                 <h1 class="page-header">Jiawei He
                 </h1>
             </div>
         </div>
         <!-- /.row -->
-        <div id="about">
-            <!-- Contact Details Column -->
-            <div class="col-md-8">
+        <div class="row site-section">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="alert alert-danger site-notice" role="alert">
+                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                    <b>【招生】</b> 近期依托智源研究院招收 <b>2027级博士研究生</b>，欢迎通过邮箱 <a href="mailto:jwhe2024@gmail.com">jwhe2024@gmail.com</a> 申请！<a class="alert-link" href="https://mp.weixin.qq.com/s/hTezXLgaNu2UP_fpFY5t6A">【点击查看招生详情】</a>
+                </div>
+                <div class="highlighted-paragraph">
+                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                    <b>We are hiring on-site and remote research interns and full-time researchers/engineers specializing in embodied AI, VLM/VLA, and 3D perception. Interested graduate and senior undergraduate students are encouraged to apply via email <a href="mailto:jwhe2024@gmail.com">jwhe2024@gmail.com</a>.</b>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="row site-section">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
                 <h3>About Me</h3>
-                <p>I am Jiawei He, a researcher at the Beijing Academy of Artificial Intelligence (BAAI). I also co-founded a company called XYZ Embodied AI in Beijing, which provides embodied AI solutions, including generalizable algorithms and an AI platform. Before that, I received my PhD degree in June 2024 from the Institute of Automation, Chinese Academy of Sciences, under the advisement of Prof. <a href="https://zhaoxiangzhang.net/"> Zhaoxiang Zhang</a>. From 2020 to 2022, I was a research intern at TuSimple, mentored by <a href="https://scholar.google.com/citations?user=zXqeKPgAAAAJ&hl=en"> Zehao Huang</a> and <a href="https://winsty.net/index.html"> Naiyan Wang</a>, focusing on Multiple Object Tracking and 3D Object Detection. Previously, I earned my BS degree from Xi'an Jiaotong University in 2019. During my undergraduate years, I joined the <i>X-Plan</i> project and was a research intern at the Institute of Artificial Intelligence and Robotics (<a href="http://www.aiar.xjtu.edu.cn/">IAIR</a>) in XJTU from 2017 to 2018.
+	                <p>I am Jiawei He, a researcher/PhD supervisor at the Beijing Academy of Artificial Intelligence (BAAI). I also co-founded a company called <a href="https://xyz-eai.com/"> XYZ Embodied AI </a>in Beijing, which provides embodied AI solutions, including generalizable algorithms and an AI platform. Before that, I received my PhD degree in June 2024 from the Institute of Automation, Chinese Academy of Sciences, under the advisement of Prof. <a href="https://zhaoxiangzhang.net/"> Zhaoxiang Zhang</a>. From 2020 to 2022, I was a research intern at TuSimple, mentored by <a href="https://scholar.google.com/citations?user=zXqeKPgAAAAJ&amp;hl=en"> Zehao Huang</a> and <a href="https://winsty.net/index.html"> Naiyan Wang</a>, focusing on Multiple Object Tracking and 3D Object Detection. Previously, I earned my BS degree from Xi'an Jiaotong University in 2019. During my undergraduate years, I joined the <i>X-Plan</i> project and was a research intern at the Institute of Artificial Intelligence and Robotics (<a href="http://www.aiar.xjtu.edu.cn/">IAIR</a>) in XJTU from 2017 to 2018.
                 </p>
-                 <a href="Curriculum_Vitae_hjw.pdf"> CV</a> /  <a href="https://scholar.google.com/citations?user=35lEP_oAAAAJ"> Google Scholar</a> / <a href="https://github.com/jiaweihe1996"> GitHub </a> /  <a href="research_statement_short.pdf"> PhD Research Statement </a> 
-             </p>
-            <div class="highlighted-paragraph">
-                <b>We are hiring on-site and remote research interns and full-time researchers/engineers specializing in embodied AI, VLM/VLA, and 3D perception. Interested graduate and senior undergraduate students are encouraged to apply via email <a href="mailto:jwhe2024@gmail.com">jwhe2024@gmail.com</a>.</b>
+                <p class="profile-links">
+                    <a href="Curriculum_Vitae_hjw.pdf">CV</a> /
+                    <a href="https://scholar.google.com/citations?user=35lEP_oAAAAJ">Google Scholar</a> /
+                    <a href="https://github.com/jiaweihe1996">GitHub</a> /
+                    <a href="research_statement_short.pdf">PhD Research Statement</a>
+                </p>
             </div>
-           
-            </div>
-            
-            
-           
         </div>
         
-        <div id="content2">
-            <!-- Contact Details Column -->
-             <div class="col-md-8">
+        <div id="research" class="row site-section">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
                 <h3>Research Interests</h3>
                 <p>
                    I am interested in computer vision, embodied AI, deep learning, multiple object tracking, 3D perception and reconstruction, learning-based combinatorial optimization, video analysis, image and video generation, etc.
                 </p>
-              </div>
+            </div>
         </div>
-         <div id="content3">
-            <!-- Contact Details Column -->
-             <div class="col-md-8">
+        <div id="news" class="row site-section">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
                 <h3>News</h3>
-             <li> [26/01] 1 paper accepted by ICLR 2026</li>
-              <li> [25/09] 2 papers accepted by NeurIPS 2025</li>
-             <li> [25/08] XYZ Embodied AI founded in Beijing</li>
-              <li> [25/06] 3/3 papers accepted by ICCV 2025</li>
-              <p></p> 
-              </div>
+                <ul class="news-list">
+                    <li>[26/04] Call for PhD Students</li>
+                    <li>[26/01] 1 paper accepted by ICLR 2026</li>
+                    <li>[25/09] 2 papers accepted by NeurIPS 2025</li>
+                    <li>[25/08] XYZ Embodied AI founded in Beijing</li>
+                    <li>[25/06] 3/3 papers accepted by ICCV 2025</li>
+                </ul>
+            </div>
         </div>
-        <div id="publications">
-            <!-- Contact Details Column -->
-            <div class="col-md-8">
+        <div id="publications" class="row site-section">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
                 <h3>Publications</h3>
-                <ul>
+                <ul class="pub-list">
                     <li>
                     Mengdi Jia*, Zekun Qi*, Shaochen Zhang, Wenyao Zhang, Xinqiang Yu, <b>Jiawei He</b>, He Wang, Li Yi. <i>OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models.</i> In <b>ICLR 2026</b> .[<a href="https://arxiv.org/abs/2506.03135">arXiv</a>]
                     </li>
-                     <p></p> 
                     <li>
                     Zekun Qi*, Wenyao Zhang*, Yufei Ding*, Runpei Dong, XinQiang Yu, Jingwen Li, Lingyun Xu, Baoyu Li, Xialin He, Guofan Fan, Jiazhao Zhang, <b>Jiawei He</b>, Jiayuan Gu, Xin Jin, Kaisheng Ma, Zhizheng Zhang, He Wang, Li Yi. <i>SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation. </i> In <b>NeurIPS 2025 Spotlight</b> .[<a href="https://arxiv.org/abs/2502.13143">arXiv</a>][<a href="https://github.com/qizekun/SoFar">Code</a>]
                     </li>
-                     <p></p> 
                     <li>
                     Wenyao Zhang, Hongsi Liu, Zekun Qi, Yunnan Wang, XinQiang Yu, Jiazhao Zhang, Runpei Dong, <b>Jiawei He</b>, He Wang, Zhizheng Zhang, Li Yi, Wenjun Zeng, Xin Jin. <i>DreamVLA: Dream Comprehensive World Knowledge for Vision-Language-Action Model. </i> In The Thirty-ninth Annual Conference on Neural Information Processing Systems (<b>NeurIPS</b>) 2025. [<a href="https://arxiv.org/abs/2507.04447">arXiv</a>][<a href="https://github.com/Zhangwenyao1/DreamVLA">Code</a>]
                     </li>
-                     <p></p> 
                     <li>
                     <b>Jiawei He</b>*, Danshi Li*, Xinqiang Yu*, Zekun Qi, Wenyao Zhang, Jiayi Chen, Zhaoxiang Zhang, Zhizheng Zhang, Li Yi, He Wang. <i>DexVLG: Dexterous Vision-Language-Grasp Model at Scale. </i> In International Conference on Computer Vision (<b>ICCV 2025 Highlight</b>) .[<a href="https://arxiv.org/abs/2507.02747">arXiv</a>][<a href="https://github.com/jiaweihe1996/DexVLG">Code</a>]
                     </li>
-                     <p></p> 
-                    <li>	
+                    <li>
                     Wenyao Zhang, Hongsi Liu, Bohan Li, <b>Jiawei He</b>, Zekun Qi, Yunnan Wang, Shengyang Zhao, Xinqiang Yu, Wenjun Zeng, Xin Jin. <i>Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation. </i> In International Conference on Computer Vision (<b>ICCV</b>) 2025. 
                     </li>
-                     <p></p> 
-                    <li>	
+                    <li>
                     Yingyan Li, Yuqi Wang, Yang Liu, <b>Jiawei He</b>, Lue Fan, Zhaoxiang Zhang. <i>End-to-End Driving with Online Trajectory Evaluation via BEV World Model. </i> In International Conference on Computer Vision (<b>ICCV</b>) 2025. [<a href="https://arxiv.org/abs/2504.01941">arXiv</a>]
                     </li>
-                     <p></p> 
                     <li>
-                    Yuqi Wang*, Ke Cheng*, <b>Jiawei He*</b>, Qitai Wang*, Hengchen Dai, Yuntao Chen, Fei Xia, Zhaoxiang Zhang. <i>DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model. </i> In NeurIPS 2024 D&B track. [<a href="https://arxiv.org/abs/2410.10738">arXiv</a>] [<a href="https://drivingdojo.github.io/">project page</a>] [<a href="https://mp.weixin.qq.com/s/jXVeBRjKPsNtX7bBanW-QQ">机器之心 (In Chinese)</a>]
+	                    Yuqi Wang*, Ke Cheng*, <b>Jiawei He*</b>, Qitai Wang*, Hengchen Dai, Yuntao Chen, Fei Xia, Zhaoxiang Zhang. <i>DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model. </i> In NeurIPS 2024 D&amp;B track. [<a href="https://arxiv.org/abs/2410.10738">arXiv</a>] [<a href="https://drivingdojo.github.io/">project page</a>] [<a href="https://mp.weixin.qq.com/s/jXVeBRjKPsNtX7bBanW-QQ">机器之心 (In Chinese)</a>]
                     </li>
-                    <p></p>  
                     <li>
                     Qitai Wang, <b>Jiawei He</b>, Yuntao Chen, Zhaoxiang Zhang. <i>OneTrack: Demystifying the Conflict Between Detection and Tracking in End-to-End 3D Trackers. </i> In European Conference on Computer Vision (<b>ECCV</b>) 2024. [<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01174.pdf">pdf</a>]
                     </li>
-                    <p></p>  
                     <li>
                     Yingyan Li, Lue Fan, <b>Jiawei He</b>, Yuqi Wang, Yuntao Chen, Zhaoxiang Zhang, Tieniu Tan. <i>Enhancing End-to-End Autonomous Driving with Latent World Model. </i> In International Conference on Learning Representations (<b>ICLR</b>) 2025. [<a href="https://arxiv.org/abs/2406.08481">arXiv</a>] 
                     </li>
-                    <p></p>  
                     <li>
                     <b>Jiawei He</b>, Zehao Huang, Naiyan Wang, Zhaoxiang Zhang. <i>Learnable Graph Matching: A Practical Paradigm for Data Association. </i> IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2024. [<a href="https://doi.org/10.1109/TPAMI.2024.3362401">paper</a>] [<a href="https://arxiv.org/abs/2303.15414">arXiv</a>] [<a href="https://github.com/jiaweihe1996/GMTracker">code</a>][<a href="gmtracker_pami_bib.txt">bibtex</a>]
                     </li>
-                    <p></p>    
                     <li>
                     Yuqi Wang*, <b>Jiawei He*</b>, Lue Fan*, Hongxin Li*, Yuntao Chen, Zhaoxiang Zhang. Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving. In IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2024.  [<a href="https://arxiv.org/abs/2311.17918">arXiv</a>] [<a href="https://drive-wm.github.io/">project page</a>] [<a href="https://github.com/BraveGroup/Drive-WM">code</a>] [<a href="https://mp.weixin.qq.com/s/x_BH6PCS2WwR6zQjngH4LQ">机器之心 (In Chinese)</a>]
                     </li>
-                    <p></p>
                     <li>
                     <b>Jiawei He</b>, Yuqi Wang, Yuntao Chen, Zhaoxiang Zhang. <i>Weakly Supervised 3D Object Detection with Multi-Stage Generalization. </i> TPAMI (major revision)[<a href="https://arxiv.org/abs/2306.05418">arXiv</a>] [<a href="https://ba2det.github.io/">project page</a>]
                     </li>
-                    <p></p>
                     <li>
                     <b>Jiawei He</b>, Lue Fan, Yuqi Wang, Yuntao Chen, Zehao Huang, Naiyan Wang, Zhaoxiang Zhang. <i>Tracking Objects with 3D Representation from Videos. </i> Submitted to IJCV. [<a href="https://arxiv.org/abs/2306.05416">arXiv</a>]
                     </li>
-                      <p></p>  
                     <li>
                     <b>Jiawei He</b>, Yuntao Chen, Naiyan Wang, Zhaoxiang Zhang. <i>3D Video Object Detection with Learnable Object-Centric Global Optimization. </i> In IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2023. [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_3D_Video_Object_Detection_With_Learnable_Object-Centric_Global_Optimization_CVPR_2023_paper.pdf">pdf</a>] [<a href="https://arxiv.org/abs/2303.15416">arXiv</a>] [<a href="https://github.com/jiaweihe1996/BA-Det">code</a>][<a href="badet_bib.txt">bibtex</a>]
                     </li>
-                      <p></p>  
                     <li>
                     Yingyan Li, Yuntao Chen, <b>Jiawei He</b>, Zhaoxiang Zhang. <i>Densely Constrained Depth Estimator for Monocular 3D Object Detection. </i> In European Conference on Computer Vision (<b>ECCV</b>) 2022. [<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690708.pdf">pdf</a>] [<a href="https://github.com/BraveGroup/DCD">code</a>][<a href="dcd_bib.txt">bibtex</a>]
                     </li>
-                <p></p>   
                 <li>
                    <b>Jiawei He</b>, Zehao Huang, Naiyan Wang, Zhaoxiang Zhang. <i>Learnable Graph Matching: Incorporating Graph Partitioning with Deep Feature Learning for Multiple Object Tracking.</i> In IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2021.  [<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/He_Learnable_Graph_Matching_Incorporating_Graph_Partitioning_With_Deep_Feature_Learning_CVPR_2021_paper.pdf">pdf</a>] [<a href="https://github.com/jiaweihe1996/GMTracker">code</a>] [<a href="gmtracker_bib.txt">bibtex</a>] [<a href="https://jiaweihe.com/docs/gmtracker_poster.pdf">poster</a>]  [<a href="https://youtu.be/GSKa1ZwHqaY">YouTube</a>] [<a href="https://www.bilibili.com/video/BV1kb4y1o7yP/">bilibili</a>]
                 </li>
-                <p></p>  
                 <li>
                     Zhixiong Nan, Yang Feng, <b>Jiawei He</b>, Ping Wei, Linhai Xu, Hongbin Sun, Nanning Zheng. <i>Scene-Guided Region Proposal Re-ranking Method for On-road Vehicle Candidate Generation.</i> In IEEE Intelligent Vehicles Symposium (<b>IV</b>) 2019. [<a href="https://ieeexplore.ieee.org/document/8814149">paper</a>] [<a href="iv_bib.txt">bibtex</a>]
                 </li>
                 </ul>
             </div>
         </div>  
-        <div id="content2">
-            <!-- Contact Details Column -->
-             <div class="col-md-8">
+        <div id="presentations" class="row site-section">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
                 <h3>Presentations</h3>
-                <ul>
-                <li>
-                   Reconstruction-based 3D Perception. In CRIPAC Summer Symposium. July 16, 2023. [<a href="Reconstruction-based_3D_Perception.pdf">Slides</a>]
-                </li>
+                <ul class="news-list">
+                    <li>
+                        Reconstruction-based 3D Perception. In CRIPAC Summer Symposium. July 16, 2023. [<a href="Reconstruction-based_3D_Perception.pdf">Slides</a>]
+                    </li>
                 </ul>
-              </div>
-        </div>
-        <div id="content2">
-            <!-- Contact Details Column -->
-             <div class="col-md-8">
-                <h3>Professional Services</h3>
-                 <ul>
-                <li>
-                   Conference reviewer: ICLR, ICML, NeurIPS, CVPR, ECCV, ICCV, ACMMM, ACCV
-                </li>
-                <li>
-                   Journal reviewer: IJCV, TIP, PR, SCIS, TNNLS, TCSVT, Information Fusion, TBIOM
-                   
-                </li>
-            </ul>
-              </div>
-        </div>
-        <!-- Content Row -->
-        <div id="contact">
-            <!-- Contact Details Column -->
-            <div class="col-md-12">
-                <h3>Contact Details</h3>
-                <p>
-                    Beijing XYZ Embodied AI Co., Ltd.<br>Block A, Dinghao DH3 Building, Haidian District, BEIJING, CHINA<br>
-                </p>
-                <p>
-                    北京星源智机器人科技有限公司<br>北京市海淀区鼎好DH3大厦A座<br>
-                </p>
-                <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email"></abbr>E-mail: <a href="mailto:jwhe2024@gmail.com">jwhe2024@gmail.com</a>; <a href="mailto:hejiawei@xyz-eai.com">hejiawei@xyz-eai.com</a>
-                </p>
-                </div>
             </div>
-            <div class="col-md-12">
-               <p></p>
-                <p>
-                    Last update: Sept 19, 2025.
-                </p>
+        </div>
+        <div id="services" class="row site-section">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <h3>Professional Services</h3>
+                <ul class="news-list">
+                    <li>Conference reviewer: ICLR, ICML, NeurIPS, CVPR, ECCV, ICCV, ACMMM, ACCV</li>
+                    <li>Journal reviewer: IJCV, TIP, PR, SCIS, TNNLS, TCSVT, Information Fusion, TBIOM</li>
+                </ul>
+            </div>
+        </div>
+        <div id="contact" class="row site-section">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <h3>Contact</h3>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                            <b>Beijing XYZ Embodied AI Co., Ltd.</b><br>
+                            Block A, Dinghao DH3 Building, Haidian District, BEIJING, CHINA
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>
+                            <b>北京星源智机器人科技有限公司</b><br>
+                            北京市海淀区鼎好DH3大厦A座
+                        </p>
+                    </div>
                 </div>
+                <p><i class="fa fa-envelope-o"></i> E-mail: <a href="mailto:jwhe2024@gmail.com">jwhe2024@gmail.com</a>; <a href="mailto:hejiawei@xyz-eai.com">hejiawei@xyz-eai.com</a></p>
+                <p class="text-muted">Last update: Sept 19, 2025.</p>
+            </div>
+        </div>
            
                 <!--
                 <ul class="list-unstyled list-inline list-social-icons">
