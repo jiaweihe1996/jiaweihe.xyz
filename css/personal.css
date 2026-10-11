@@ -1,0 +1,43 @@
+.personal-home .personal-intro {
+    display: block;
+    padding-bottom: 54px;
+    padding-top: 62px;
+}
+
+.personal-intro .intro-main { max-width: 860px; }
+.personal-intro h1 { font-size: 38px; }
+.personal-intro .subtitle { font-size: 17px; }
+.personal-intro .affiliation { font-size: 14px; margin-bottom: 22px; }
+.personal-intro .profile-links { font-size: 14px; margin-top: 21px; }
+
+.recruitment {
+    border-left: 2px solid var(--blue);
+    font-size: 14px;
+    margin-top: 26px;
+    padding-left: 16px;
+}
+.recruitment p { margin: 6px 0; }
+
+.publication-list .publication-text-only .paper-details { grid-column: 2; }
+
+.plain-list { margin: 0; padding-left: 20px; }
+.plain-list li { margin: 8px 0; padding-left: 2px; }
+
+.contact-grid {
+    display: grid;
+    gap: 18px 40px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow-wrap: break-word;
+}
+.contact-grid p:first-child { margin-top: 0; }
+
+@media (max-width: 760px) {
+    .personal-home .personal-intro { padding-bottom: 42px; padding-top: 44px; }
+    .personal-intro h1 { font-size: 34px; }
+    .personal-intro .subtitle { font-size: 16px; }
+}
+
+@media (max-width: 600px) {
+    .publication-list .publication-text-only .paper-details { grid-column: 1; }
+    .contact-grid { gap: 14px; grid-template-columns: minmax(0, 1fr); }
+}

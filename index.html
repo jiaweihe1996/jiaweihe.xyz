@@ -2,15 +2,18 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta name="description" content="Jiawei He — researcher and PhD Advisor at BAAI, co-founder of XYZ Embodied AI. Research in embodied AI, spatial intelligence, and 3D perception.">
+    <meta name="author" content="Jiawei He">
     <title>Jiawei He's Homepage</title>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Noto+Sans+SC:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="css/xyz-asr.css" rel="stylesheet">
+    <link href="css/personal.css" rel="stylesheet">
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -18,39 +21,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5ZGGCQ6B');</script>
     <!-- End Google Tag Manager -->
-    
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
-
-    <!-- Typography -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
-
-    <!-- Academic Theme Overrides -->
-    <link href="css/academic.css" rel="stylesheet">
-    
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <script type="text/javascript">
-    function  showImg(){
-    document.getElementById("wxImg").style.display='block';
-    }
-    function hideImg(){
-    document.getElementById("wxImg").style.display='none';
-    }
-    </script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M1VJD6238Y"></script>
 <script>
@@ -62,250 +33,390 @@
 </script>
 </head>
 
-<body>
+<body class="personal-home">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZGGCQ6B"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Jiawei He's Homepage</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	                  <ul class="nav navbar-nav navbar-right">
-	                    <li>
-	                        <a href="#about">About</a>
-	                    </li>
-                        <li>
-                            <a href="#news">News</a>
-                        </li>
-	                    <li>
-	                        <a href="#publications">Publications</a>
-	                    </li>
-                  
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#">GMTracker</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    <!-- Page Content -->
-     <div class="container">
 
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row site-section">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <h1 class="page-header">Jiawei He
-                </h1>
-            </div>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="site-name" href="#top">Jiawei He</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+            <nav id="site-nav" aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#news">News</a>
+                <a href="#publications">Publications</a>
+                <a href="xyz-asr.html">XYZ-ASR</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
-        <!-- /.row -->
-        <div class="row site-section">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <div class="alert alert-danger site-notice" role="alert">
-                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                    <b>【招生】</b> 近期依托智源研究院招收 <b>2027级博士研究生</b>，欢迎通过邮箱 <a href="mailto:jwhe2024@gmail.com">jwhe2024@gmail.com</a> 申请！<a class="alert-link" href="https://mp.weixin.qq.com/s/hTezXLgaNu2UP_fpFY5t6A">【点击查看招生详情】</a>
-                </div>
-                <div class="highlighted-paragraph">
-                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                    <b>We are hiring on-site and remote research interns and full-time researchers/engineers specializing in embodied AI, VLM/VLA, and 3D perception. Interested graduate and senior undergraduate students are encouraged to apply via email <a href="mailto:jwhe2024@gmail.com">jwhe2024@gmail.com</a>.</b>
-                </div>
-            </div>
-        </div>
+    </header>
 
-        <div id="about" class="row site-section">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <h3>About Me</h3>
-	                <p>I am Jiawei He, a researcher/PhD supervisor at the Beijing Academy of Artificial Intelligence (BAAI). I also co-founded a company called <a href="https://xyz-eai.com/"> XYZ Embodied AI </a>in Beijing, which provides embodied AI solutions, including generalizable algorithms and an AI platform. Before that, I received my PhD degree in June 2024 from the Institute of Automation, Chinese Academy of Sciences, under the advisement of Prof. <a href="https://zhaoxiangzhang.net/"> Zhaoxiang Zhang</a>. From 2020 to 2022, I was a research intern at TuSimple, mentored by <a href="https://scholar.google.com/citations?user=zXqeKPgAAAAJ&amp;hl=en"> Zehao Huang</a> and <a href="https://winsty.net/index.html"> Naiyan Wang</a>, focusing on Multiple Object Tracking and 3D Object Detection. Previously, I earned my BS degree from Xi'an Jiaotong University in 2019. During my undergraduate years, I joined the <i>X-Plan</i> project and was a research intern at the Institute of Artificial Intelligence and Robotics (<a href="http://www.aiar.xjtu.edu.cn/">IAIR</a>) in XJTU from 2017 to 2018.
-                </p>
+    <main id="top">
+        <section class="intro personal-intro container" id="about">
+            <div class="intro-main">
+                <h1>Jiawei He</h1>
+                <p class="subtitle">Researcher and PhD Advisor</p>
+                <p class="affiliation">Beijing Academy of Artificial Intelligence (BAAI) · Co-founder, XYZ Embodied AI</p>
+                <p>I am Jiawei He, a researcher/PhD Advisor at the Beijing Academy of Artificial Intelligence (BAAI). I also co-founded a company called <a href="https://xyz-eai.com/"> XYZ Embodied AI </a>in Beijing, which provides embodied AI solutions, including generalizable algorithms and an AI platform. Before that, I received my PhD degree in June 2024 from the Institute of Automation, Chinese Academy of Sciences, under the advisement of Prof. <a href="https://zhaoxiangzhang.net/"> Zhaoxiang Zhang</a>.</p>
+                <p>I lead <a href="xyz-asr.html">XYZ-ASR</a> (Algorithm &amp; System Research), a research center jointly established by BAAI and XYZ Embodied AI. We recruit research interns and PhD students through the center.</p>
+                <p>From 2020 to 2022, I was a research intern at TuSimple, mentored by <a href="https://scholar.google.com/citations?user=zXqeKPgAAAAJ&amp;hl=en"> Zehao Huang</a> and <a href="https://winsty.net/index.html"> Naiyan Wang</a>, focusing on Multiple Object Tracking and 3D Object Detection. Previously, I earned my BS degree from Xi'an Jiaotong University in 2019. During my undergraduate years, I joined the <i>X-Plan</i> project and was a research intern at the Institute of Artificial Intelligence and Robotics (<a href="http://www.aiar.xjtu.edu.cn/">IAIR</a>) in XJTU from 2017 to 2018.</p>
                 <p class="profile-links">
-                    <a href="Curriculum_Vitae_hjw.pdf">CV</a> /
-                    <a href="https://scholar.google.com/citations?user=35lEP_oAAAAJ">Google Scholar</a> /
-                    <a href="https://github.com/jiaweihe1996">GitHub</a> /
-                    <a href="research_statement_short.pdf">PhD Research Statement</a>
+                    <a href="https://scholar.google.com/citations?user=35lEP_oAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+                    <span>/</span>
+                    <a href="https://github.com/jiaweihe1996" target="_blank" rel="noopener">GitHub</a>
+                    <span>/</span>
+                    <a href="mailto:jwhe2024@gmail.com">Email</a>
                 </p>
-            </div>
-        </div>
-        
-        <div id="research" class="row site-section">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <h3>Research Interests</h3>
-                <p>
-                   I am interested in computer vision, embodied AI, deep learning, multiple object tracking, 3D perception and reconstruction, learning-based combinatorial optimization, video analysis, image and video generation, etc.
-                </p>
-            </div>
-        </div>
-        <div id="news" class="row site-section">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <h3>News</h3>
-                <ul class="news-list">
-					<li>[26/06] 1 paper accepted by IJCV</li>
-                    <li>[26/04] Call for PhD Students</li>
-                    <li>[26/01] 1 paper accepted by ICLR 2026</li>
-                    <li>[25/09] 2 papers accepted by NeurIPS 2025</li>
-                    <li>[25/08] XYZ Embodied AI founded in Beijing</li>
-                    <li>[25/06] 3/3 papers accepted by ICCV 2025</li>
-                </ul>
-            </div>
-        </div>
-        <div id="publications" class="row site-section">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <h3>Publications</h3>
-                <ul class="pub-list">
-					<li>
-                    <b>Jiawei He</b>, Lue Fan, Zhaoxiang Zhang. <i>Learning Pseudo 3D Representation for Ego-centric 2D Multiple Object Tracking. </i> International Journal of Computer Vision (IJCV) 2026. [<a href="https://arxiv.org/abs/2306.05416">arXiv</a>]
-                    </li>
-                    <li>
-                    Mengdi Jia*, Zekun Qi*, Shaochen Zhang, Wenyao Zhang, Xinqiang Yu, <b>Jiawei He</b>, He Wang, Li Yi. <i>OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models.</i> In <b>ICLR 2026</b> .[<a href="https://arxiv.org/abs/2506.03135">arXiv</a>]
-                    </li>
-                    <li>
-                    Zekun Qi*, Wenyao Zhang*, Yufei Ding*, Runpei Dong, XinQiang Yu, Jingwen Li, Lingyun Xu, Baoyu Li, Xialin He, Guofan Fan, Jiazhao Zhang, <b>Jiawei He</b>, Jiayuan Gu, Xin Jin, Kaisheng Ma, Zhizheng Zhang, He Wang, Li Yi. <i>SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation. </i> In <b>NeurIPS 2025 Spotlight</b> .[<a href="https://arxiv.org/abs/2502.13143">arXiv</a>][<a href="https://github.com/qizekun/SoFar">Code</a>]
-                    </li>
-                    <li>
-                    Wenyao Zhang, Hongsi Liu, Zekun Qi, Yunnan Wang, XinQiang Yu, Jiazhao Zhang, Runpei Dong, <b>Jiawei He</b>, He Wang, Zhizheng Zhang, Li Yi, Wenjun Zeng, Xin Jin. <i>DreamVLA: Dream Comprehensive World Knowledge for Vision-Language-Action Model. </i> In The Thirty-ninth Annual Conference on Neural Information Processing Systems (<b>NeurIPS</b>) 2025. [<a href="https://arxiv.org/abs/2507.04447">arXiv</a>][<a href="https://github.com/Zhangwenyao1/DreamVLA">Code</a>]
-                    </li>
-                    <li>
-                    <b>Jiawei He</b>*, Danshi Li*, Xinqiang Yu*, Zekun Qi, Wenyao Zhang, Jiayi Chen, Zhaoxiang Zhang, Zhizheng Zhang, Li Yi, He Wang. <i>DexVLG: Dexterous Vision-Language-Grasp Model at Scale. </i> In International Conference on Computer Vision (<b>ICCV 2025 Highlight</b>) .[<a href="https://arxiv.org/abs/2507.02747">arXiv</a>][<a href="https://github.com/jiaweihe1996/DexVLG">Code</a>]
-                    </li>
-                    <li>
-                    Wenyao Zhang, Hongsi Liu, Bohan Li, <b>Jiawei He</b>, Zekun Qi, Yunnan Wang, Shengyang Zhao, Xinqiang Yu, Wenjun Zeng, Xin Jin. <i>Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation. </i> In International Conference on Computer Vision (<b>ICCV</b>) 2025. 
-                    </li>
-                    <li>
-                    Yingyan Li, Yuqi Wang, Yang Liu, <b>Jiawei He</b>, Lue Fan, Zhaoxiang Zhang. <i>End-to-End Driving with Online Trajectory Evaluation via BEV World Model. </i> In International Conference on Computer Vision (<b>ICCV</b>) 2025. [<a href="https://arxiv.org/abs/2504.01941">arXiv</a>]
-                    </li>
-                    <li>
-	                    Yuqi Wang*, Ke Cheng*, <b>Jiawei He*</b>, Qitai Wang*, Hengchen Dai, Yuntao Chen, Fei Xia, Zhaoxiang Zhang. <i>DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model. </i> In NeurIPS 2024 D&amp;B track. [<a href="https://arxiv.org/abs/2410.10738">arXiv</a>] [<a href="https://drivingdojo.github.io/">project page</a>] [<a href="https://mp.weixin.qq.com/s/jXVeBRjKPsNtX7bBanW-QQ">机器之心 (In Chinese)</a>]
-                    </li>
-                    <li>
-                    Qitai Wang, <b>Jiawei He</b>, Yuntao Chen, Zhaoxiang Zhang. <i>OneTrack: Demystifying the Conflict Between Detection and Tracking in End-to-End 3D Trackers. </i> In European Conference on Computer Vision (<b>ECCV</b>) 2024. [<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01174.pdf">pdf</a>]
-                    </li>
-                    <li>
-                    Yingyan Li, Lue Fan, <b>Jiawei He</b>, Yuqi Wang, Yuntao Chen, Zhaoxiang Zhang, Tieniu Tan. <i>Enhancing End-to-End Autonomous Driving with Latent World Model. </i> In International Conference on Learning Representations (<b>ICLR</b>) 2025. [<a href="https://arxiv.org/abs/2406.08481">arXiv</a>] 
-                    </li>
-                    <li>
-                    <b>Jiawei He</b>, Zehao Huang, Naiyan Wang, Zhaoxiang Zhang. <i>Learnable Graph Matching: A Practical Paradigm for Data Association. </i> IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2024. [<a href="https://doi.org/10.1109/TPAMI.2024.3362401">paper</a>] [<a href="https://arxiv.org/abs/2303.15414">arXiv</a>] [<a href="https://github.com/jiaweihe1996/GMTracker">code</a>][<a href="gmtracker_pami_bib.txt">bibtex</a>]
-                    </li>
-                    <li>
-                    Yuqi Wang*, <b>Jiawei He*</b>, Lue Fan*, Hongxin Li*, Yuntao Chen, Zhaoxiang Zhang. Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving. In IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2024.  [<a href="https://arxiv.org/abs/2311.17918">arXiv</a>] [<a href="https://drive-wm.github.io/">project page</a>] [<a href="https://github.com/BraveGroup/Drive-WM">code</a>] [<a href="https://mp.weixin.qq.com/s/x_BH6PCS2WwR6zQjngH4LQ">机器之心 (In Chinese)</a>]
-                    </li>
-                    <li>
-                    <b>Jiawei He</b>, Yuqi Wang, Yuntao Chen, Zhaoxiang Zhang. <i>Weakly Supervised 3D Object Detection with Multi-Stage Generalization. </i> TPAMI (major revision)[<a href="https://arxiv.org/abs/2306.05418">arXiv</a>] [<a href="https://ba2det.github.io/">project page</a>]
-                    </li>
-                    <li>
-                    <b>Jiawei He</b>, Yuntao Chen, Naiyan Wang, Zhaoxiang Zhang. <i>3D Video Object Detection with Learnable Object-Centric Global Optimization. </i> In IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2023. [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_3D_Video_Object_Detection_With_Learnable_Object-Centric_Global_Optimization_CVPR_2023_paper.pdf">pdf</a>] [<a href="https://arxiv.org/abs/2303.15416">arXiv</a>] [<a href="https://github.com/jiaweihe1996/BA-Det">code</a>][<a href="badet_bib.txt">bibtex</a>]
-                    </li>
-                    <li>
-                    Yingyan Li, Yuntao Chen, <b>Jiawei He</b>, Zhaoxiang Zhang. <i>Densely Constrained Depth Estimator for Monocular 3D Object Detection. </i> In European Conference on Computer Vision (<b>ECCV</b>) 2022. [<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690708.pdf">pdf</a>] [<a href="https://github.com/BraveGroup/DCD">code</a>][<a href="dcd_bib.txt">bibtex</a>]
-                    </li>
-                <li>
-                   <b>Jiawei He</b>, Zehao Huang, Naiyan Wang, Zhaoxiang Zhang. <i>Learnable Graph Matching: Incorporating Graph Partitioning with Deep Feature Learning for Multiple Object Tracking.</i> In IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2021.  [<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/He_Learnable_Graph_Matching_Incorporating_Graph_Partitioning_With_Deep_Feature_Learning_CVPR_2021_paper.pdf">pdf</a>] [<a href="https://github.com/jiaweihe1996/GMTracker">code</a>] [<a href="gmtracker_bib.txt">bibtex</a>] [<a href="https://jiaweihe.com/docs/gmtracker_poster.pdf">poster</a>]  [<a href="https://youtu.be/GSKa1ZwHqaY">YouTube</a>] [<a href="https://www.bilibili.com/video/BV1kb4y1o7yP/">bilibili</a>]
-                </li>
-                <li>
-                    Zhixiong Nan, Yang Feng, <b>Jiawei He</b>, Ping Wei, Linhai Xu, Hongbin Sun, Nanning Zheng. <i>Scene-Guided Region Proposal Re-ranking Method for On-road Vehicle Candidate Generation.</i> In IEEE Intelligent Vehicles Symposium (<b>IV</b>) 2019. [<a href="https://ieeexplore.ieee.org/document/8814149">paper</a>] [<a href="iv_bib.txt">bibtex</a>]
-                </li>
-                </ul>
-            </div>
-        </div>  
-        <div id="presentations" class="row site-section">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <h3>Presentations</h3>
-                <ul class="news-list">
-                    <li>
-                        Reconstruction-based 3D Perception. In CRIPAC Summer Symposium. July 16, 2023. [<a href="Reconstruction-based_3D_Perception.pdf">Slides</a>]
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div id="services" class="row site-section">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <h3>Professional Services</h3>
-                <ul class="news-list">
-                    <li>Conference reviewer: ICLR, ICML, NeurIPS, CVPR, ECCV, ICCV, ACMMM, ACCV</li>
-                    <li>Journal reviewer: IJCV, TIP, PR, SCIS, TNNLS, TCSVT, Information Fusion, TBIOM</li>
-                </ul>
-            </div>
-        </div>
-        <div id="contact" class="row site-section">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <h3>Contact</h3>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>
-                            <b>Beijing XYZ Embodied AI Co., Ltd.</b><br>
-                            Block A, Dinghao DH3 Building, Haidian District, BEIJING, CHINA
-                        </p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p>
-                            <b>北京星源智机器人科技有限公司</b><br>
-                            北京市海淀区鼎好DH3大厦A座
-                        </p>
-                    </div>
+                <div class="recruitment">
+                    <p><strong lang="zh-CN">2027 级博士招生名额已满。</strong> All PhD positions for the 2027 intake have been filled.</p>
+                    <p>XYZ-ASR is hiring on-site and remote research interns and full-time researchers and engineers in embodied AI, VLM/VLA, and 3D perception. Graduate and senior undergraduate students are welcome to apply for internships by <a href="mailto:jwhe2024@gmail.com">email</a>.</p>
                 </div>
-                <p><i class="fa fa-envelope-o"></i> E-mail: <a href="mailto:jwhe2024@gmail.com">jwhe2024@gmail.com</a>; <a href="mailto:hejiawei@xyz-eai.com">hejiawei@xyz-eai.com</a></p>
-                <p class="text-muted">Last update: Sept 19, 2025.</p>
             </div>
+        </section>
+
+        <section class="section container" id="research">
+            <h2>Research Interests</h2>
+            <p>My research focuses on embodied AI, spatial intelligence, vision-language-action models, world models, and 3D perception. I also work on multiple object tracking, 3D reconstruction, learning-based combinatorial optimization, and image and video understanding and generation.</p>
+        </section>
+
+        <section class="section container" id="news">
+            <h2>News</h2>
+            <ul class="news-list">
+                <li><time datetime="2026-10">2026.10</time><span>DA-Nav was accepted to IEEE Robotics and Automation Letters (RA-L).</span></li>
+                <li><time datetime="2026-09">2026.09</time><span>AdaOcc was accepted to NeurIPS 2026.</span></li>
+                <li><time datetime="2026-08">2026.08</time><span>JEPA-WAM was released on arXiv.</span></li>
+                <li><time datetime="2026-07">2026.07</time><span>UniPart and RoboTracer were accepted to ECCV 2026.</span></li>
+                <li><time datetime="2026-05">2026.05</time><span>P3DTrack was accepted by IJCV.</span></li>
+                <li><time datetime="2026-04">2026.04</time><span>Call for 2027 PhD students (positions filled).</span></li>
+                <li><time datetime="2026-01">2026.01</time><span>OmniSpatial was accepted to ICLR 2026.</span></li>
+                <li><time datetime="2025-09">2025.09</time><span>SoFar (Spotlight) and DreamVLA were accepted to NeurIPS 2025.</span></li>
+                <li><time datetime="2025-08">2025.08</time><span>XYZ Embodied AI was founded in Beijing.</span></li>
+                <li><time datetime="2025-06">2025.06</time><span>Three papers were accepted to ICCV 2025, including DexVLG (Highlight).</span></li>
+            </ul>
+        </section>
+
+        <section class="section container" id="publications">
+            <div class="section-title-row">
+                <h2>Publications</h2>
+                <a href="https://scholar.google.com/citations?user=35lEP_oAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+            </div>
+
+            <div class="publication-year">
+                <h3>2026</h3>
+                <ol class="publication-list">
+                    <li id="paper-da-nav">
+                        <a class="paper-media" href="static/image/papers/da-nav.webp?v=2" target="_blank" rel="noopener" aria-label="View da-nav figure" title="View larger figure">
+                            <img src="static/image/papers/da-nav.webp?v=2" alt="DA-Nav: direction-aware vision-language navigation overview" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">DA-Nav: Direction-Aware City-Scale Vision-Language Navigation.</p>
+                            <p>Ye Yuan*, Kehan Chen*, Xinqiang Yu*, Wentao Xu, Heng Wang, et al., <strong>Jiawei He</strong>†, Zhulin An†.</p>
+                            <p class="venue">IEEE Robotics and Automation Letters (RA-L), 2026.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2607.11638" target="_blank" rel="noopener">arXiv</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-adaocc">
+                        <a class="paper-media" href="static/image/papers/adaocc.webp" target="_blank" rel="noopener" aria-label="View AdaOcc figure" title="View larger figure">
+                            <img src="static/image/papers/adaocc.webp" alt="AdaOcc: adaptive 3D occupancy prediction across robots, sensors, and embodied tasks" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">AdaOcc: Adaptive 3D Occupancy Prediction for Embodied Tasks.</p>
+                            <p>Jinglong Wang*, Yunjie Wang*, Zhiyang Zhang*, <strong>Jiawei He</strong>†, Ye Yuan, Bo Qiu†, Jing Zhang†.</p>
+                            <p class="venue">NeurIPS 2026.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2609.38864" target="_blank" rel="noopener">arXiv</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-jepa-wam">
+                        <a class="paper-media" href="static/image/papers/jepa-wam.webp" target="_blank" rel="noopener" aria-label="View JEPA-WAM figure" title="View larger figure">
+                            <img src="static/image/papers/jepa-wam.webp" alt="JEPA-WAM: joint-embedding world modeling for vision-language-action policies" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">JEPA-WAM: Learning Vision-Language-Action Policies with Joint-Embedding World Modeling.</p>
+                            <p>Yihan Lin*, <strong>Jiawei He</strong>*, Shifeng Bao, Chen Zhao, Yang Li, Xiaobo Wang, Yan Wang, Cheng Chi†, Jing Zhang†.</p>
+                            <p class="venue">arXiv preprint, 2026.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2608.09381" target="_blank" rel="noopener">arXiv</a> · <a href="https://spritewithoutice.github.io/JEPA_WAM/" target="_blank" rel="noopener">project</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-robotracer">
+                        <a class="paper-media" href="static/image/papers/robotracer.webp" target="_blank" rel="noopener" aria-label="View RoboTracer figure" title="View larger figure">
+                            <img src="static/image/papers/robotracer.webp" alt="RoboTracer: metric-grounded spatial traces and reasoning for robotic manipulation" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">Towards Spatial Trace with Reasoning in Vision-Language Models for Robotics.</p>
+                            <p>Enshen Zhou*, Yibo Li*, Jingkun An*, Jiayuan Zhang*, Shanyu Rong, Mengzhen Liu, Yi Han, Yuheng Ji, Huajie Tan, <strong>Jiawei He</strong>, Pengwei Wang, Zhongyuan Wang, Cheng Chi, Lu Sheng, Shanghang Zhang.</p>
+                            <p class="venue">ECCV 2026.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2512.13660" target="_blank" rel="noopener">paper</a> · <a href="https://zhoues.github.io/RoboTracer/" target="_blank" rel="noopener">project</a> · <a href="https://github.com/Zhoues/RoboTracer" target="_blank" rel="noopener">code</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-unipart">
+                        <a class="paper-media" href="static/image/papers/unipart.webp" target="_blank" rel="noopener" aria-label="View unipart figure" title="View larger figure">
+                            <img src="static/image/papers/unipart.webp" alt="UniPart: language-grounded 3D part segmentation overview" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">UniPart: Towards Zero-shot Language-Grounded 3D Part Segmentation for Embodied Interaction.</p>
+                            <p>Xinqiang Yu*, Zekun Qi*, <strong>Jiawei He</strong>, Wenyao Zhang, Xuchuan Chen, Guocai Yao, Li Yi, Zhaoxiang Zhang, He Wang.</p>
+                            <p class="venue">ECCV 2026.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2609.12898" target="_blank" rel="noopener">paper</a> · <a href="https://xinqiangyu.github.io/UniPart/" target="_blank" rel="noopener">project</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-p3dtrack">
+                        <a class="paper-media" href="static/image/papers/p3dtrack.webp" target="_blank" rel="noopener" aria-label="View p3dtrack figure" title="View larger figure">
+                            <img src="static/image/papers/p3dtrack.webp" alt="P3DTrack: learning pseudo 3D representations for multiple object tracking" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">Learning Pseudo 3D Representation for Ego-centric 2D Multiple Object Tracking.</p>
+                            <p><strong>Jiawei He</strong>, Lue Fan, Zhaoxiang Zhang.</p>
+                            <p class="venue">International Journal of Computer Vision, 2026.</p>
+                            <p class="paper-links"><a href="https://link.springer.com/article/10.1007/s11263-026-02887-z" target="_blank" rel="noopener">paper</a> · <a href="https://arxiv.org/abs/2306.05416" target="_blank" rel="noopener">arXiv</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-omnispatial">
+                        <a class="paper-media" href="static/image/papers/omnispatial.webp" target="_blank" rel="noopener" aria-label="View omnispatial figure" title="View larger figure">
+                            <img src="static/image/papers/omnispatial.webp" alt="OmniSpatial: spatial reasoning benchmark overview" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models.</p>
+                            <p>Mengdi Jia*, Zekun Qi*, Shaochen Zhang, Wenyao Zhang, Xinqiang Yu, <strong>Jiawei He</strong>, He Wang, Li Yi.</p>
+                            <p class="venue">ICLR 2026.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2506.03135" target="_blank" rel="noopener">paper</a> · <a href="https://openreview.net/forum?id=r7rUDgGYC4" target="_blank" rel="noopener">OpenReview</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-floorplan-vln">
+                        <a class="paper-media" href="static/image/papers/floorplan-vln.webp" target="_blank" rel="noopener" aria-label="View FloorPlan-VLN figure" title="View larger figure">
+                            <img src="static/image/papers/floorplan-vln.webp" alt="FloorPlan-VLN: floor plans and concise instructions guide vision-language navigation" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">FloorPlan-VLN: A New Paradigm for Floor Plan Guided Vision-Language Navigation.</p>
+                            <p>Kehan Chen, Yan Huang†, Dong An, <strong>Jiawei He</strong>, Yifei Su, Jing Liu, Nianfeng Liu, Liang Wang†.</p>
+                            <p class="venue">arXiv preprint, 2026.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2603.17437" target="_blank" rel="noopener">arXiv</a> · <a href="https://github.com/Chenkehan21/FloorPlan-VLN" target="_blank" rel="noopener">code</a></p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="publication-year">
+                <h3>2025</h3>
+                <ol class="publication-list">
+                    <li id="paper-sofar">
+                        <a class="paper-media" href="static/image/papers/sofar.webp" target="_blank" rel="noopener" aria-label="View sofar figure" title="View larger figure">
+                            <img src="static/image/papers/sofar.webp" alt="SoFar: language-grounded orientation and object manipulation" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation.</p>
+                            <p>Zekun Qi*, Wenyao Zhang*, Yufei Ding*, Runpei Dong, XinQiang Yu, Jingwen Li, Lingyun Xu, Baoyu Li, Xialin He, Guofan Fan, Jiazhao Zhang, <strong>Jiawei He</strong>, Jiayuan Gu, Xin Jin, Kaisheng Ma, Zhizheng Zhang, He Wang, Li Yi.</p>
+                            <p class="venue">NeurIPS 2025 Spotlight.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2502.13143" target="_blank" rel="noopener">paper</a> · <a href="https://github.com/qizekun/SoFar" target="_blank" rel="noopener">code</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-dreamvla">
+                        <a class="paper-media" href="static/image/papers/dreamvla.webp" target="_blank" rel="noopener" aria-label="View dreamvla figure" title="View larger figure">
+                            <img src="static/image/papers/dreamvla.webp" alt="DreamVLA: vision-language-action model overview" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">DreamVLA: Dream Comprehensive World Knowledge for Vision-Language-Action Model.</p>
+                            <p>Wenyao Zhang, Hongsi Liu, Zekun Qi, Yunnan Wang, XinQiang Yu, Jiazhao Zhang, Runpei Dong, <strong>Jiawei He</strong>, He Wang, Zhizheng Zhang, Li Yi, Wenjun Zeng, Xin Jin.</p>
+                            <p class="venue">NeurIPS 2025.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2507.04447" target="_blank" rel="noopener">paper</a> · <a href="https://github.com/Zhangwenyao1/DreamVLA" target="_blank" rel="noopener">code</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-dexvlg">
+                        <a class="paper-media" href="static/image/papers/dexvlg.webp" target="_blank" rel="noopener" aria-label="View DexVLG figure" title="View larger figure">
+                            <img src="static/image/papers/dexvlg.webp" alt="DexVLG: dexterous vision-language-grasp model teaser" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">DexVLG: Dexterous Vision-Language-Grasp Model at Scale.</p>
+                            <p><strong>Jiawei He</strong>*, Danshi Li*, Xinqiang Yu*, Zekun Qi, Wenyao Zhang, Jiayi Chen, Zhaoxiang Zhang, Zhizheng Zhang, Li Yi, He Wang.</p>
+                            <p class="venue">ICCV 2025 Highlight.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2507.02747" target="_blank" rel="noopener">paper</a> · <a href="https://github.com/jiaweihe1996/DexVLG" target="_blank" rel="noopener">code</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-hybrid-depth">
+                        <a class="paper-media" href="static/image/papers/hybrid-depth.webp" target="_blank" rel="noopener" aria-label="View hybrid-depth figure" title="View larger figure">
+                            <img src="static/image/papers/hybrid-depth.webp" alt="Hybrid-grained feature aggregation: coarse-to-fine language guidance for monocular depth estimation" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation.</p>
+                            <p>Wenyao Zhang, Hongsi Liu, Bohan Li, <strong>Jiawei He</strong>, Zekun Qi, Yunnan Wang, Shengyang Zhao, Xinqiang Yu, Wenjun Zeng, Xin Jin.</p>
+                            <p class="venue">ICCV 2025.</p>
+                            <p class="paper-links"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_Hybrid-grained_Feature_Aggregation_with_Coarse-to-fine_Language_Guidance_for_Self-supervised_Monocular_ICCV_2025_paper.pdf" target="_blank" rel="noopener">paper</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-bev-world">
+                        <a class="paper-media" href="static/image/papers/bev-world.webp" target="_blank" rel="noopener" aria-label="View bev-world figure" title="View larger figure">
+                            <img src="static/image/papers/bev-world.webp" alt="BEV World Model: online trajectory evaluation for end-to-end driving" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">End-to-End Driving with Online Trajectory Evaluation via BEV World Model.</p>
+                            <p>Yingyan Li, Yuqi Wang, Yang Liu, <strong>Jiawei He</strong>, Lue Fan, Zhaoxiang Zhang.</p>
+                            <p class="venue">ICCV 2025.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2504.01941" target="_blank" rel="noopener">paper</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-latent-world">
+                        <a class="paper-media" href="static/image/papers/latent-world.webp" target="_blank" rel="noopener" aria-label="View latent-world figure" title="View larger figure">
+                            <img src="static/image/papers/latent-world.webp" alt="Latent World Model: enhancing end-to-end autonomous driving" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">Enhancing End-to-End Autonomous Driving with Latent World Model.</p>
+                            <p>Yingyan Li, Lue Fan, <strong>Jiawei He</strong>, Yuqi Wang, Yuntao Chen, Zhaoxiang Zhang, Tieniu Tan.</p>
+                            <p class="venue">ICLR 2025.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2406.08481" target="_blank" rel="noopener">arXiv</a></p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="publication-year">
+                <h3>2024 and earlier</h3>
+                <ol class="publication-list">
+                    <li id="paper-drivingdojo">
+                        <a class="paper-media" href="static/image/papers/drivingdojo.webp" target="_blank" rel="noopener" aria-label="View drivingdojo figure" title="View larger figure">
+                            <img src="static/image/papers/drivingdojo.webp" alt="DrivingDojo: interactive driving world model dataset" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model.</p>
+                            <p>Yuqi Wang*, Ke Cheng*, <strong>Jiawei He</strong>*, Qitai Wang*, Hengchen Dai, Yuntao Chen, Fei Xia, Zhaoxiang Zhang.</p>
+                            <p class="venue">NeurIPS 2024 Datasets &amp; Benchmarks.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2410.10738" target="_blank" rel="noopener">paper</a> · <a href="https://drivingdojo.github.io/" target="_blank" rel="noopener">project</a> · <a href="https://mp.weixin.qq.com/s/jXVeBRjKPsNtX7bBanW-QQ" target="_blank" rel="noopener">机器之心 (In Chinese)</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-onetrack">
+                        <a class="paper-media" href="static/image/papers/onetrack.webp" target="_blank" rel="noopener" aria-label="View onetrack figure" title="View larger figure">
+                            <img src="static/image/papers/onetrack.webp" alt="OneTrack: training pipeline for end-to-end 3D detection and tracking" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">OneTrack: Demystifying the Conflict Between Detection and Tracking in End-to-End 3D Trackers.</p>
+                            <p>Qitai Wang, <strong>Jiawei He</strong>, Yuntao Chen, Zhaoxiang Zhang.</p>
+                            <p class="venue">ECCV 2024.</p>
+                            <p class="paper-links"><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01174.pdf" target="_blank" rel="noopener">paper</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-gmtracker">
+                        <a class="paper-media" href="static/image/papers/gmtracker.webp" target="_blank" rel="noopener" aria-label="View gmtracker figure" title="View larger figure">
+                            <img src="static/image/papers/gmtracker.webp" alt="Learnable Graph Matching: data association framework" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">Learnable Graph Matching: A Practical Paradigm for Data Association.</p>
+                            <p><strong>Jiawei He</strong>, Zehao Huang, Naiyan Wang, Zhaoxiang Zhang.</p>
+                            <p class="venue">IEEE TPAMI, 2024.</p>
+                            <p class="paper-links"><a href="https://doi.org/10.1109/TPAMI.2024.3362401" target="_blank" rel="noopener">paper</a> · <a href="https://github.com/jiaweihe1996/GMTracker" target="_blank" rel="noopener">code</a> · <a href="https://arxiv.org/abs/2303.15414" target="_blank" rel="noopener">arXiv</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-drive-wm">
+                        <a class="paper-media" href="static/image/papers/drive-wm.webp" target="_blank" rel="noopener" aria-label="View drive-wm figure" title="View larger figure">
+                            <img src="static/image/papers/drive-wm.webp" alt="Drive-WM: multiview visual forecasting and planning" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving.</p>
+                            <p>Yuqi Wang*, <strong>Jiawei He</strong>*, Lue Fan*, Hongxin Li*, Yuntao Chen, Zhaoxiang Zhang.</p>
+                            <p class="venue">CVPR 2024.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2311.17918" target="_blank" rel="noopener">paper</a> · <a href="https://drive-wm.github.io/" target="_blank" rel="noopener">project</a> · <a href="https://github.com/BraveGroup/Drive-WM" target="_blank" rel="noopener">code</a> · <a href="https://mp.weixin.qq.com/s/x_BH6PCS2WwR6zQjngH4LQ" target="_blank" rel="noopener">机器之心 (In Chinese)</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-ba2det">
+                        <a class="paper-media" href="static/image/papers/ba2det.webp" target="_blank" rel="noopener" aria-label="View ba2det figure" title="View larger figure">
+                            <img src="static/image/papers/ba2det.webp" alt="BA2Det: weakly supervised 3D object detection with multi-stage generalization" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">Weakly Supervised 3D Object Detection with Multi-Stage Generalization.</p>
+                            <p><strong>Jiawei He</strong>, Yuqi Wang, Yuntao Chen, Zhaoxiang Zhang.</p>
+                            <p class="venue">TPAMI (major revision).</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2306.05418" target="_blank" rel="noopener">arXiv</a> · <a href="https://ba2det.github.io/" target="_blank" rel="noopener">project</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-ba-det">
+                        <a class="paper-media" href="static/image/papers/ba-det.webp" target="_blank" rel="noopener" aria-label="View ba-det figure" title="View larger figure">
+                            <img src="static/image/papers/ba-det.webp" alt="BA-Det: object-centric global optimization for 3D video detection" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">3D Video Object Detection with Learnable Object-Centric Global Optimization.</p>
+                            <p><strong>Jiawei He</strong>, Yuntao Chen, Naiyan Wang, Zhaoxiang Zhang.</p>
+                            <p class="venue">CVPR 2023.</p>
+                            <p class="paper-links"><a href="https://arxiv.org/abs/2303.15416" target="_blank" rel="noopener">arXiv</a> · <a href="https://github.com/jiaweihe1996/BA-Det" target="_blank" rel="noopener">code</a> · <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_3D_Video_Object_Detection_With_Learnable_Object-Centric_Global_Optimization_CVPR_2023_paper.pdf" target="_blank" rel="noopener">paper</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-dcd">
+                        <a class="paper-media" href="static/image/papers/dcd.webp" target="_blank" rel="noopener" aria-label="View dcd figure" title="View larger figure">
+                            <img src="static/image/papers/dcd.webp" alt="DCD: densely constrained depth estimation for monocular 3D object detection" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">Densely Constrained Depth Estimator for Monocular 3D Object Detection.</p>
+                            <p>Yingyan Li, Yuntao Chen, <strong>Jiawei He</strong>, Zhaoxiang Zhang.</p>
+                            <p class="venue">ECCV 2022.</p>
+                            <p class="paper-links"><a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690708.pdf" target="_blank" rel="noopener">paper</a> · <a href="https://github.com/BraveGroup/DCD" target="_blank" rel="noopener">code</a></p>
+                        </div>
+                    </li>
+                    <li id="paper-gmtracker-cvpr">
+                        <a class="paper-media" href="static/image/papers/gmtracker-cvpr.webp" target="_blank" rel="noopener" aria-label="View gmtracker-cvpr figure" title="View larger figure">
+                            <img src="static/image/papers/gmtracker-cvpr.webp" alt="GMTracker: learnable graph matching for multiple object tracking" width="220" height="165" loading="lazy" decoding="async">
+                        </a>
+                        <div class="paper-details">
+                            <p class="paper-title">Learnable Graph Matching: Incorporating Graph Partitioning with Deep Feature Learning for Multiple Object Tracking.</p>
+                            <p><strong>Jiawei He</strong>, Zehao Huang, Naiyan Wang, Zhaoxiang Zhang.</p>
+                            <p class="venue">CVPR 2021.</p>
+                            <p class="paper-links"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/He_Learnable_Graph_Matching_Incorporating_Graph_Partitioning_With_Deep_Feature_Learning_CVPR_2021_paper.pdf" target="_blank" rel="noopener">paper</a> · <a href="https://github.com/jiaweihe1996/GMTracker" target="_blank" rel="noopener">code</a> · <a href="https://jiaweihe.com/docs/gmtracker_poster.pdf" target="_blank" rel="noopener">poster</a> · <a href="https://youtu.be/GSKa1ZwHqaY" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.bilibili.com/video/BV1kb4y1o7yP/" target="_blank" rel="noopener">bilibili</a></p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <p class="note">* Equal contribution. † Corresponding author.</p>
+        </section>
+
+        <section class="section container" id="presentations">
+            <h2>Presentations</h2>
+            <ul class="plain-list">
+                <li>Reconstruction-based 3D Perception. CRIPAC Summer Symposium, July 16, 2023. <a href="Reconstruction-based_3D_Perception.pdf">Slides</a></li>
+            </ul>
+        </section>
+
+        <section class="section container" id="services">
+            <h2>Professional Services</h2>
+            <ul class="plain-list">
+                <li>Conference reviewer: ICLR, ICML, NeurIPS, CVPR, ECCV, ICCV, ACMMM, ACCV.</li>
+                <li>Journal reviewer: IJCV, TIP, PR, SCIS, TNNLS, TCSVT, Information Fusion, TBIOM.</li>
+            </ul>
+        </section>
+
+        <section class="section container" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <div>
+                    <p>Beijing XYZ Embodied AI Co., Ltd.<br>Block A, Dinghao DH3 Building, Haidian District, Beijing, China</p>
+                </div>
+                <div lang="zh-CN">
+                    <p>北京星源智机器人科技有限公司<br>北京市海淀区鼎好 DH3 大厦 A 座</p>
+                </div>
+            </div>
+            <p>Email: <a href="mailto:jwhe2024@gmail.com">jwhe2024@gmail.com</a> · <a href="mailto:hejiawei@xyz-eai.com">hejiawei@xyz-eai.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <span>Jiawei He</span>
+            <span>Last updated: September 28, 2026</span>
         </div>
-           
-                <!--
-                <ul class="list-unstyled list-inline list-social-icons">
-                    <li>
-                        <a href="https://www.facebook.com/jiawei.he.7315"><i class="fa fa-facebook-square fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/%E5%98%89%E4%BC%9F-%E4%BD%95-4ab858122/"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/JiaweiHe3"><i class="fa fa-twitter-square fa-2x"></i></a>
-                    </li>
-                </ul>
-                !-->
-           
-        <!-- /.row -->
+    </footer>
 
-        <!-- Contact Form -->
-        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-        <!-- /.row -->
-
-
-
-
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
+    <script>
+        (function () {
+            var button = document.querySelector('.nav-toggle');
+            var nav = document.getElementById('site-nav');
+            button.addEventListener('click', function () {
+                var open = button.getAttribute('aria-expanded') === 'true';
+                button.setAttribute('aria-expanded', String(!open));
+                nav.classList.toggle('is-open', !open);
+            });
+            nav.querySelectorAll('a').forEach(function (link) {
+                link.addEventListener('click', function () {
+                    button.setAttribute('aria-expanded', 'false');
+                    nav.classList.remove('is-open');
+                });
+            });
+        }());
+    </script>
 </body>
-
 </html>
